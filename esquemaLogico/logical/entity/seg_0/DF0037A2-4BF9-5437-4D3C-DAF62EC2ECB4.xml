@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF0037A2-4BF9-5437-4D3C-DAF62EC2ECB4" name="Documentos">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:05:54 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDocumento" id="E965573C-8579-73C7-F2F3-7615C83153F1">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:06:16 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contrato" id="85C8E90E-F25C-96C6-EE46-970A19D54C72">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:06:30 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="actaNacimiento" id="E84B7FF4-1F3C-7404-38AA-236823A97948">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:07:39 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ine" id="7A263AA4-5774-E990-EB26-FCFB79AB84E7">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:08:53 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comprobanteDomicilio" id="60CC9703-AD26-6554-BC6A-D83212100473">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:09:02 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto" id="91001C5F-D953-4220-56F1-0808DEC681B5">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:09:24 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nss" id="AD96C57B-75B0-C7D9-6CC5-B5F150F5CFBD">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:10:24 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9BFA61A4-835B-5201-DDDE-65DFE333142A" name="Documentos PK">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:06:28 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E965573C-8579-73C7-F2F3-7615C83153F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

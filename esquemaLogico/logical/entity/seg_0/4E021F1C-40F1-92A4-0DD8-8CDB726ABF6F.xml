@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E021F1C-40F1-92A4-0DD8-8CDB726ABF6F" name="proveedores">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:34:10 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProveedor" id="9E111AE7-1698-7226-C5A7-B9D8AE1CCB82">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:34:17 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razonSocial" id="D028DFBC-B420-B6EB-DC0D-98053637592D">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:34:40 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rfc" id="58523B47-3A61-0D58-DF8B-4581615D14A3">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:34:48 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direecion" id="626B0ACD-465B-BB3B-8E93-BC33BF5F1486">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:35:30 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numTelefono" id="25EA2E90-550E-D3B0-DDE9-9A642A5103FB">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:35:40 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pagina" id="0BF8A640-7269-FDB7-E20E-3F8CCADC48BD">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:35:49 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C49105D4-B84B-8469-2EF6-12B2B8D673D0" name="proveedores PK">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:34:38 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E111AE7-1698-7226-C5A7-B9D8AE1CCB82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

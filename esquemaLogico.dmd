@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="esquemaLogico" id="9FB327FA-CB68-D57F-965C-ECE8366F0FBC" version="3.5">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:51:14 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9FB327FA-CB68-D57F-965C-ECE8366F0FBC</designId>
+</OSDM_Design>

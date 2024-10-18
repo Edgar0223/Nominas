@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD579623-C848-DB34-928F-002342F51B37" name="Empleados">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:53:24 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEmpleado" id="5444A22D-0667-051A-9534-6BEACF68BFC0">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:53:38 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="46084612-988A-4F30-E1B9-AB9AB075CC95">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:53:56 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="E94ED8F1-48B9-2DB0-865A-079E359DB06E">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:54:11 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaInicio" id="F80034A9-0EE0-8BC6-DC4E-9CB6575507F1">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:55:01 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diasVacaciones" id="DC1BF209-E8DF-9AAC-8BB1-6D2665ED18AA">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:55:12 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol" id="608BDCD8-F6D0-1E0E-BE61-9FDB486A8648">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:55:50 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoNomina" id="2A86201D-84C7-B574-D139-A0CF2A6A880A">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:57:35 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="1B7F7EA8-7DED-818E-6239-086E30222F92">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:57:58 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="procendencia" id="8E17C930-BC7B-9B4A-7B56-584F210D3C2B">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:59:45 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04B76D7D-AB6A-5300-B6C3-67FD11087820" name="Empleados PK">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 03:53:50 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5444A22D-0667-051A-9534-6BEACF68BFC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

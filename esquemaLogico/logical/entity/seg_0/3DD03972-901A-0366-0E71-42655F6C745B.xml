@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DD03972-901A-0366-0E71-42655F6C745B" name="Nominas">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:11:00 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idNomina" id="010C8BF2-688A-A1DB-C4C1-1C2A4A88DAB6">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:11:06 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaInicio" id="3C3E6739-22FE-39D5-FB60-362D97F688F8">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:11:16 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaFin" id="21F61007-3CDB-07D9-5058-44EF51FE6A8E">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:11:50 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pagoNomina" id="DD567B14-4364-47C0-2551-AA13ABF2B17E">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:12:05 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="2EAFCFC5-CDF1-E026-12D5-A6155D66C358">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:13:51 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diasPagados" id="7268C3FA-521A-9CA7-EC94-AB639AFDBD11">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:26:27 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD442783-A873-FDBC-053C-00419E0C003B" name="Nominas PK">
+<createdBy>edgarbarajas</createdBy>
+<createdTime>2024-10-18 04:11:14 UTC</createdTime>
+<ownerDesignName>esquemaLogico</ownerDesignName>
+<engineerTo>
+<item key="278C2774-B67F-5B7C-5BAB-509B35185B88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>010C8BF2-688A-A1DB-C4C1-1C2A4A88DAB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
