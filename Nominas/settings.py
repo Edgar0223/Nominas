@@ -29,21 +29,30 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
-INSTALLED_APPS = [
+#--------- Inicio Apps  ---------
+NATIVE_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'Usuarios',
-    'Nomina',
-    'Departamentos',
-    'MateriaPrima',
-    'Empleados'
+    'django.contrib.staticfiles'
 ]
+THIRD_PARTY_APPS = [
+    # Agrega aquí apps de terceros si usas, por ejemplo:
+    # 'rest_framework',
+    # 'corsheaders',
+]
+DEV_APPS = [
+    'apps.Usuarios',
+    'apps.Nomina',
+    'apps.Departamentos',
+    'apps.MateriaPrima',
+    'apps.Empleados',
+]
+INSTALLED_APPS = NATIVE_APPS + THIRD_PARTY_APPS +DEV_APPS
 
+#--------- Fin Apps  ---------
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -53,6 +62,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
 
 ROOT_URLCONF = 'Nominas.urls'
 
