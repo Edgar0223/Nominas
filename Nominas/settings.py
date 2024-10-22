@@ -49,6 +49,7 @@ DEV_APPS = [
     'apps.Departamentos',
     'apps.MateriaPrima',
     'apps.Empleados',
+    'apps.Empresa',
 ]
 INSTALLED_APPS = NATIVE_APPS + THIRD_PARTY_APPS +DEV_APPS
 
