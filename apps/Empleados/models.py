@@ -1,6 +1,5 @@
 from django.db import models
 from django.core.validators import EmailValidator
-from Departamentos.models import Departamento
 
 
 class Empleados(models.Model):
@@ -16,8 +15,7 @@ class Empleados(models.Model):
     tipoNomina = models.CharField(max_length=254, null=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    departamento = models.ForeignKey(Departamento, on_delete=models.CASCADE, related_name='empleados')
-
+    departamento = models.ForeignKey('Departamentos.Departamento', on_delete=models.CASCADE, related_name='empleados_en_departamento', null=True)
     def __str__(self):
         return f'{self.nombres} {self.apellidos}'
 
